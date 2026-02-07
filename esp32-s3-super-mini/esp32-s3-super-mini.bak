@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "esp32-s3-super-mini"
+	(symbol "ESP32-S3-SUPER-MINI"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "esp32-s3-super-mini:ESP32-S3-SUPER-MINI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESP32-S3-SUPER-MINI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "esp32-s3-super-mini_1_1"
+		(symbol "ESP32-S3-SUPER-MINI_1_1"
 			(rectangle
 				(start -12.7 24.13)
 				(end 12.7 -31.75)
@@ -69,7 +69,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 22.86 0)
 				(length 2.54)
 				(name "TX"
@@ -79,7 +79,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -87,7 +87,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 20.32 0)
 				(length 2.54)
 				(name "RX"
@@ -97,7 +97,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -105,7 +105,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 17.78 0)
 				(length 2.54)
 				(name "GPIO_1"
@@ -115,7 +115,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -123,7 +123,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 15.24 0)
 				(length 2.54)
 				(name "GPIO_2"
@@ -133,7 +133,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -141,7 +141,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 12.7 0)
 				(length 2.54)
 				(name "GPIO_3"
@@ -151,7 +151,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -159,7 +159,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 10.16 0)
 				(length 2.54)
 				(name "GPIO_4"
@@ -169,7 +169,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -177,7 +177,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 7.62 0)
 				(length 2.54)
 				(name "GPIO_5"
@@ -187,7 +187,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -195,7 +195,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "GPIO_6"
@@ -205,7 +205,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -213,7 +213,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "GPIO_7"
@@ -223,7 +223,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -231,7 +231,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "GPIO_38"
@@ -241,7 +241,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "38"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -249,7 +249,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 -5.08 0)
 				(length 2.54)
 				(name "GPIO_37"
@@ -259,7 +259,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "37"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -267,7 +267,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 -7.62 0)
 				(length 2.54)
 				(name "GPIO_36"
@@ -277,7 +277,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "36"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -285,7 +285,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 -10.16 0)
 				(length 2.54)
 				(name "GPIO_35"
@@ -295,7 +295,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "35"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -303,7 +303,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 -12.7 0)
 				(length 2.54)
 				(name "GPIO_34"
@@ -313,7 +313,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -321,7 +321,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 -15.24 0)
 				(length 2.54)
 				(name "GPIO_33"
@@ -331,7 +331,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -339,7 +339,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 -17.78 0)
 				(length 2.54)
 				(name "GPIO_21"
@@ -349,7 +349,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -357,7 +357,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 -20.32 0)
 				(length 2.54)
 				(name "GPIO_18"
@@ -367,7 +367,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -375,7 +375,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 -22.86 0)
 				(length 2.54)
 				(name "GPIO_17"
@@ -385,7 +385,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -393,7 +393,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 -25.4 0)
 				(length 2.54)
 				(name "GPIO_16"
@@ -403,7 +403,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -411,7 +411,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 -27.94 0)
 				(length 2.54)
 				(name "GPIO_15"
@@ -421,7 +421,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -429,7 +429,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 -30.48 0)
 				(length 2.54)
 				(name "GPIO_14"
@@ -439,7 +439,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -457,7 +457,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "BATT+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -475,7 +475,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "BATT-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -483,7 +483,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 15.24 22.86 180)
 				(length 2.54)
 				(name "5V"
@@ -493,7 +493,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "5V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -511,7 +511,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -519,7 +519,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 15.24 17.78 180)
 				(length 2.54)
 				(name "3.3V_(OUT)"
@@ -529,7 +529,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "3.3V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -537,7 +537,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 15.24 15.24 180)
 				(length 2.54)
 				(name "GPIO_13"
@@ -547,7 +547,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -555,7 +555,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 15.24 12.7 180)
 				(length 2.54)
 				(name "GPIO_12"
@@ -565,7 +565,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -573,7 +573,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 15.24 10.16 180)
 				(length 2.54)
 				(name "GPIO_11"
@@ -583,7 +583,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -591,7 +591,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 15.24 7.62 180)
 				(length 2.54)
 				(name "GPIO_10"
@@ -601,7 +601,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -609,7 +609,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 15.24 5.08 180)
 				(length 2.54)
 				(name "GPIO_9"
@@ -619,7 +619,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -627,7 +627,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "GPIO_8"
@@ -637,7 +637,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -645,7 +645,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 15.24 -2.54 180)
 				(length 2.54)
 				(name "GPIO_48"
@@ -655,7 +655,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "48"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -663,7 +663,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 15.24 -5.08 180)
 				(length 2.54)
 				(name "GPIO_47"
@@ -673,7 +673,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "47"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -681,7 +681,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 15.24 -7.62 180)
 				(length 2.54)
 				(name "GPIO_46"
@@ -691,7 +691,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "46"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -699,7 +699,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 15.24 -10.16 180)
 				(length 2.54)
 				(name "GPIO_45"
@@ -709,7 +709,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "45"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -717,7 +717,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 15.24 -12.7 180)
 				(length 2.54)
 				(name "GPIO_42"
@@ -727,7 +727,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "42"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -735,7 +735,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 15.24 -15.24 180)
 				(length 2.54)
 				(name "GPIO_41"
@@ -745,7 +745,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "41"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -753,7 +753,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 15.24 -17.78 180)
 				(length 2.54)
 				(name "GPIO_40"
@@ -763,7 +763,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "40"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -771,7 +771,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 15.24 -20.32 180)
 				(length 2.54)
 				(name "GPIO_39"
@@ -781,7 +781,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "39"
 					(effects
 						(font
 							(size 1.27 1.27)
